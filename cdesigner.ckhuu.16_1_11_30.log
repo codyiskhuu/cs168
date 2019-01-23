@@ -1,0 +1,118 @@
+[11:23:27.12] /o Custom Designer (TM) Version J-2014.12-SP2-2
+              /c Build  (OPT) Config 2901729 compiled on Sun Jul 26 20:41:43 2015 for RHEL64 5.7
+              /c Invocation: /usr/local/synopsys/customdesigner/J-2014.12-SP2-2/amd64/platform/bin/cdesigner
+              /c Execution time: Wed Jan 16 11:23:23 2019
+              /c Host: bender.engr.ucr.edu
+              /c 
+              /c Copyright © 2004-2015 Synopsys, Inc. All rights reserved.
+              /c Your use of this program is subject to the terms and conditions of the written license agreement between you, or your company, and Synopsys.
+              /c 
+[11:23:29.28] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+8+514
+[11:23:39.04] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+836+295
+[11:23:50.87] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+923+254
+[11:24:04.66] /i db::setAttr geometry -of [gi::getFrames 0] -value 600x300+864+326
+[11:24:11.71] /# gi::executeAction dmShowLibraryManager -in [gi::getWindows 0]
+[11:24:11.71] /i dm::showLibraryManager
+[11:24:11.72] /r giWindowId 1
+[11:24:11.72] /r giWindowGeometry 660x600+50+50
+[11:24:11.85] /o oa:0x243fbf30
+[11:24:12.22] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+58+81
+[11:24:13.58] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 1]
+[11:24:13.60] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 1]
+[11:24:19.72] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+616+250
+[11:24:23.72] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 1]
+[11:24:23.72] /i dm::showNewLibrary -parent 1
+[11:24:23.80] /o oa:0x244b4b70
+[11:24:23.93] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:24:24.18] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]] -value 444x503+722+290
+[11:24:26.37] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+825+310
+[11:24:52.32] /i gi::setField {libName} -value {mylibrary} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:24:52.54] /i gi::setField {techTypeFile} -value {true} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:25:15.21] /i gi::setField {techFile} -value {/usr/local/synopsys/pdk/SAED3228nm_iPDK} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:25:34.99] /i gi::setField {techTypeDefault} -value {true} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:25:35.56] /i gi::setField {techTypeFile} -value {true} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:25:40.76] /i gi::executeAction dmCopy -in [gi::getWindows 1]
+[11:25:41.01] /i gi::setActiveDialog [gi::getDialogs {dmCopyLibrary} -parent [gi::getWindows 1]]
+[11:25:41.27] /i db::setAttr geometry -of [gi::getDialogs {dmCopyLibrary} -parent [gi::getWindows 1]] -value 500x600+903+255
+[11:25:42.52] /i gi::setField {fromLibLibsFilter} -value {v} -in [gi::getDialogs {dmCopyLibrary} -parent [gi::getWindows 1]]
+[11:25:42.53] /i gi::closeWindows [gi::getDialogs {dmCopyLibrary} -parent [gi::getWindows 1]]
+[11:25:42.55] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:25:44.69] /i gi::closeWindows [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:25:48.95] /i gi::setActiveWindow 0
+[11:25:48.96] /i gi::setActiveWindow 0 -raise true
+[11:25:50.32] /i gi::setActiveWindow 1
+[11:25:50.33] /i gi::setActiveWindow 1 -raise true
+[11:25:52.77] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 1]
+[11:25:52.77] /i dm::showNewLibrary -parent 1
+[11:25:52.83] /o oa:0x244a5560
+[11:25:52.99] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:25:53.13] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]] -value 444x493+722+290
+[11:25:58.38] /i gi::setField {libName} -value {mylibrary} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:25:59.41] /i gi::pressButton {techFileBrowse} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:26:25.62] /r giFileDialog reject ../../../../usr/local/synopsys/pdk
+[11:26:34.22] /i gi::setField {techTypeDefault} -value {true} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:26:35.20] /i gi::setField {techTypeFile} -value {true} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:26:50.76] /i gi::closeWindows [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:26:52.34] /i gi::setActiveWindow 0
+[11:26:52.34] /i gi::setActiveWindow 0 -raise true
+[11:26:55.09] /i gi::setActiveWindow 1
+[11:26:55.10] /i gi::setActiveWindow 1 -raise true
+[11:26:56.78] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+719+110
+[11:27:02.23] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 1]
+[11:27:02.23] /i dm::showNewLibrary -parent 1
+[11:27:02.29] /o oa:0x2449e750
+[11:27:02.41] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:27:02.58] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]] -value 444x493+722+290
+[11:27:05.36] /i gi::pressButton {techFileBrowse} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:27:16.35] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+780+312
+[11:28:00.54] /r giFileDialog reject ../../../../usr
+[11:28:01.72] /i gi::pressButton {techFileBrowse} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:28:07.76] /r giFileDialog reject ../../../../usr/local/synopsys/pdk/SAED3228nm_iPDK
+[11:28:11.96] /i gi::pressButton {techFileBrowse} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:28:40.56] /r giFileDialog accept ../../../../usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf
+[11:28:55.99] /i gi::setField {libName} -value {mylibrary} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:28:56.10] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 1]]
+[11:28:56.12] /# dm::createLib mylibrary -path {./mylibrary} -dmSystem oaDMFileSys
+[11:28:56.14] /# db::importTechFile /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] mylibrary]]; oa::save [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[11:28:56.14] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 839] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.14] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 840] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.14] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 841] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.14] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 843] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.15] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 844] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.15] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 845] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.15] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 846] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.15] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 848] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.15] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 853] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.15] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 855] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.15] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 856] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.15] /m Information: Information: constraint name 'minSpacing' of layer pair constraint is replaced by constraint name 'minClearance'.[line 857] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.15] /m Information: Information: constraint name 'validLayers' of simple constraint is replaced by constraint name 'validRoutingLayers'.[line 983] (TECH_IO-090). (TECH_IO-098)
+[11:28:56.16] /w Warning: Section leRules is not supported by tech parser,  and skipped.  line[1037] (TECH_IO-076)
+[11:28:56.18] /w Warning: standViaDef DIFFCON: cut layer CO mask number 23 is not between via layers DIFF(2), M1(6). (TECH_IO-096)
+[11:28:56.18] /w Warning: standViaDef VIA78: cut layer VIA7 mask number 21 is not between via layers M7(18), M8(19). (TECH_IO-096)
+[11:28:56.18] /w Warning: standViaDef VIA89: cut layer VIA8 mask number 22 is not between via layers M8(19), M9(20). (TECH_IO-096)
+[11:28:56.19] /m Information: creating new layer pair constraint definition minEnclosure (TECH_IO-050)
+[11:28:56.19] /m Information: creating new layer pair constraint definition endOfLineEnclosure (TECH_IO-050)
+[11:28:56.21] /m Information: Technology file /usr/local/synopsys/pdk/SAED_PDK90nm/techfiles/saed90nm_1p9m_cd.tf is successfully imported into lib mylibrary. (TECH_IO-099)
+[11:28:56.24] /# oa::close [oa::TechFind [oa::ScalarName [oa::CdbaNS] mylibrary]]
+[11:29:02.50] /i db::setAttr geometry -of [gi::getFrames 1] -value 660x600+810+231
+[11:29:06.60] /# gi::executeAction dmShowNewCellView -in [gi::getWindows 1]
+[11:29:06.60] /i dm::showNewCellView -parent 1
+[11:29:06.67] /o oa:0x244c60e0
+[11:29:06.88] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 1]]
+[11:29:07.07] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 1]] -value 598x346+839+349
+[11:29:11.45] /i gi::setCurrentIndex {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 1]]
+[11:29:11.46] /i gi::setItemSelection {libs} -index {mylibrary} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 1]]
+[11:29:13.44] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 1]]
+[11:29:34.16] /i gi::setField {cellViewName} -value {schematic} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 1]]
+[11:29:53.76] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 1]]
+[11:29:55.08] /i gi::executeAction giCloseWindow -in [gi::getWindows 1]
+[11:29:56.19] /i gi::setActiveWindow 0
+[11:29:56.20] /i gi::setActiveWindow 0 -raise true
+[11:29:56.99] /i gi::executeAction giCloseWindow -in [gi::getWindows 0]
+[11:29:57.06] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[11:29:57.35] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 371x218+581+314
+[11:30:00.57] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[11:30:00.66] /o Shutdown time: Wed Jan 16 11:30:00 2019
+[11:30:00.66] /o Elapsed session real time: 6.55 minutes
+[11:30:00.66] /o Session terminated. Log is at /home/eemaj/ckhuu/eecs168/cdesigner.log
