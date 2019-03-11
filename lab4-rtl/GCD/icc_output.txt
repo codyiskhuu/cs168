@@ -1,0 +1,21 @@
+icc_shell> gui_start
+ + VUE INFO: Please click Verification->IC Validator VUE in LayoutWindow menu
+to launch VUE.
+
+ + VUE INFO: Found a usable port: 2445
+
+Information: Loaded Icv extension from /usr/local/synopsys/icvalidator/K-2015.12-3 (GUI-024)
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> open_mw_lib /home/eemaj/ckhuu/eecs168/lab4-rtl/GCD/GCD_icc
+{GCD_icc}
+icc_shell> ::iccGUI::open_mw_cel  gcdGCDUnit_rtl
+icc_shell> open_mw_cel gcdGCDUnit_rtl
+Preparing data for query................... 
+Warning: No valid link library found; check the link_library variable. (IFS-008)
+Information: Opened "gcdGCDUnit_rtl.CEL;1" from "/home/eemaj/ckhuu/eecs168/lab4-rtl/GCD/GCD_icc" library. (MWUI-068)
+{gcdGCDUnit_rtl}
+icc_shell> 
+icc_shell> exit
+
+Thank you...
+

@@ -1,0 +1,35 @@
+
+Name of design : fa_4bit
+Number of cell instance masters in the library : 4
+Number of cell instances in the design : 12
+Processing net VDD ...
+Average power dissipation in fa_4bit :  1000.00 mW
+Power supply voltage :     1.20 V
+Average current in fa_4bit :   833.33 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 86
+Maximum IR drop in fa_4bit : 392.24 mV
+Maximum current in fa_4bit : 96.445 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 80
+Maximum IR drop in fa_4bit : 419.95 mV
+Maximum current in fa_4bit : 104.397 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 76
+Maximum IR drop in fa_4bit : 436.77 mV
+Maximum current in fa_4bit : 104.857 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 74
+Maximum IR drop in fa_4bit : 465.76 mV
+Maximum current in fa_4bit : 119.559 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 70
+Maximum IR drop in fa_4bit : 494.45 mV
+Maximum current in fa_4bit : 114.560 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 86
+Maximum IR drop in fa_4bit : 392.24 mV
+Maximum current in fa_4bit : 96.445 mA
+Processing net VSS ...
+Average power dissipation in fa_4bit :  1000.00 mW
+Power supply voltage :     1.20 V
+Average current in fa_4bit :   833.33 mA
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 86
+Maximum IR drop in fa_4bit : 419.98 mV
+Maximum current in fa_4bit : 159.210 mA
+Memory usage for design data :      36421.632 Kbytes
+Overall takes     0.23 seconds

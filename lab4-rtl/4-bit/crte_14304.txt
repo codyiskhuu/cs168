@@ -1,0 +1,326 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+14304
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Wed Feb 27 13:19:56 PST 2019 (1551302396)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: bender.engr.ucr.edu
+arch: x86_64
+release_version: 3.10.0-957.1.3.el7.x86_64
+
+SECTION_IPC_INFO
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0xabbaca01 327680     fzhang     666        4          1                       
+0xabbaca02 360449     fzhang     666        4          1                       
+
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems     
+0x00004155 0          jchiem     666        1         
+
+
+SECTION_ULIMIT
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 192467
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 4096
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200809
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 4096
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 2097152
+_SC_CHILD_MAX= 4096
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/usr/local/synopsys/icc/K-2015.06-SP4/linux64/syn/bin/galaxy_icc_exec -shell icc_shell -tcl_mode -xg_mode -r /usr/local/synopsys/icc/K-2015.06-SP4
+
+SECTION_CPUINFO
+total_core: 8
+
+model_name:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt arat spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2397
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 15360
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt arat spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2397
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 15360
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt arat spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2397
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 15360
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt arat spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2397
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 15360
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt arat spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2397
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 15360
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt arat spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2397
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 15360
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt arat spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2397
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 15360
+ht: 0
+
+model_name:  Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt arat spec_ctrl intel_stibp flush_l1d arch_capabilities
+cpu_family: 6
+core_frequency_mhz: 2397
+core_per_socket: 0
+stepping: 2
+cache_size_kb: 15360
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+CentOS Linux release 7.6.1810 (Core) 
+
+
+SECTION_QSC_CHECKER
+
+        qscchk.sh Version 1.6.3, 12 November 2014
+        qscchk.dat QSC K Rev: 17, 17 November 2014
+     Copyright (c) 1988-2014 by Synopsys, Inc.
+             All RIGHTS RESERVED
+
+ERROR: This does not appear to be a Synopsys supported Linux variant
+ERROR: Unable to determine Snps_Platform for this operating system.
+ERROR: Unknown Linux variant 'Unknown'
+ 
+No QSC information for the K Synopsys release, on the
+64 bit Unknown platform running the Unknown Operating System 
+could be found in datafile /tmp/sdp_14304_0/qscchk.dat
+ 
+
+Return code from the QSC checker script is 256
+
+SECTION_SYS/VM
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/block_dump:0
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:30
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/drop_caches:0
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/hugepages_treat_as_movable:0
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:67584
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:4096
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/nr_pdflush_threads:0
+/proc/sys/vm/numa_zonelist_order:default
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/panic_on_oom:0
+/proc/sys/vm/percpu_pagelist_fraction:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:30
+/proc/sys/vm/user_reserve_kbytes:131072
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+swap_partition: /dev/sda3
+size_gb: 3
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1551302396854
+
+SECTION_MPSTAT
+total_core: 8
+
+CPU     %user   %kernel %wait   %idle   
+all   4.653203 6.340251 0.365931 88.640617
+0     4.704496 7.134136 0.318884 87.842484
+1     5.883337 7.776263 0.415631 85.924767
+2     5.293425 7.596302 0.334916 86.775352
+3     3.906317 4.956951 0.312058 90.824677
+4     4.232205 5.124972 0.412984 90.229836
+5     5.104338 7.181072 0.344817 87.369774
+6     3.411736 5.074227 0.394336 91.119698
+7     4.685133 5.871630 0.393335 89.049904
+
+SECTION_PID_STATUS
+name: galaxy_icc_exec
+state: 1
+vmsize: 1375176
+vmrss: 255772
+vmdata: 820020
+vmstk: 912
+vmexe: 318432
+vmlib: 12384
+threads: 19
+
+SECTION_PROCESS_CPU_UTIL
+pid: 14304
+cpu_total_time: 28800249
+cpu_used_time: 4879
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 49294208
+memfree: 31656224
+cached: 10123328
+swapcached: 0
+active: 11660540
+swaptotal: 4193276
+swapfree: 4193276
+
+SECTION_SMAPS
+shared_kb: 52068
+private_kb: 206132
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        194G  173G  21G    89
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          46783776  1791986 44991790   4294967283
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        4915G  4061G  853G    83
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          31876689  12513632 19363057   4294967242
+
+SECTION_SWAP_RATE
+blk_read: 7008
+blk_wrtn: 0
+swap_in_rate: 
+swap_out_rate: 
+swap_in_rate: 
+swap_out_rate: 
+
+SECTION_FD_SIZE
+files: 34
+total_size: 8437197
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 2
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+    lo:         0        0        0        0
+ ens33:         0        10        0        0
+
+SECTION_NFSSTAT
+readlink: 0
+write: 36
+getattr: 19
+retrans: 0
+raw_data: 
+net 0 0 0 0
+rpc 3958940 0 3960419
+proc3 22 0 770196 159237 262280 312164 402 639317 1438186 121192 6242 854 0 127547 7588 42134 21631 0 32837 16995 18 9 0
+proc4 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+SECTION_THREAD_CPU_UTIL
+14304 : 14304 (galaxy_icc_exec) R 25164 14304 25164 34838 14304 4202496 359098 98636 1 0 550 144 170 33 20 0 19 0 3605142 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 140734615478456 139923189716733 0 1024 4608 1135701247 0 0 0 17 1 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14446 : 14446 (QFileInfoGather) S 25164 14304 25164 34838 14304 1077944384 79 98636 0 0 0 0 170 33 20 0 19 0 3607351 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922946514432 139923189705061 0 8192 4608 1135701247 18446744071697387318 0 0 -1 7 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14447 : 14447 (QInotifyFileSys) R 25164 14304 25164 34838 14304 4202560 38 98636 0 0 58 108 170 33 20 0 19 0 3607351 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922938121296 139923151331187 0 8192 4608 1135701247 0 0 0 -1 4 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14448 : 14448 (QFileInfoGather) S 25164 14304 25164 34838 14304 1077944384 56 98636 0 0 0 0 170 33 20 0 19 0 3607351 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922929729024 139923189705061 0 8192 4608 1135701247 18446744071697387318 0 0 -1 0 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14449 : 14449 (QInotifyFileSys) S 25164 14304 25164 34838 14304 1077944384 4 98636 0 0 0 0 170 33 20 0 19 0 3607352 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922921335888 139923151331187 0 8192 4608 1135701247 18446744071698739397 0 0 -1 2 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14599 : 14599 (QFileInfoGather) S 25164 14304 25164 34838 14304 1077944384 290 98636 0 0 0 0 170 33 20 0 19 0 3610357 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922912943616 139923189705061 0 8192 4608 1135701247 18446744071697387318 0 0 -1 7 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14601 : 14601 (QInotifyFileSys) S 25164 14304 25164 34838 14304 1077944384 252 98636 0 0 0 0 170 33 20 0 19 0 3610358 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922904550480 139923151331187 0 8192 4608 1135701247 18446744071698739397 0 0 -1 0 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14602 : 14602 (QFileInfoGather) S 25164 14304 25164 34838 14304 1077944384 291 98636 0 0 0 0 170 33 20 0 19 0 3610358 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922896158208 139923189705061 0 8192 4608 1135701247 18446744071697387318 0 0 -1 6 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14603 : 14603 (QInotifyFileSys) S 25164 14304 25164 34838 14304 1077944384 252 98636 0 0 0 0 170 33 20 0 19 0 3610358 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922887765072 139923151331187 0 8192 4608 1135701247 18446744071698739397 0 0 -1 2 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14810 : 14810 (QFileInfoGather) S 25164 14304 25164 34838 14304 1077944384 293 98636 0 0 0 0 170 33 20 0 19 0 3611992 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922879372800 139923189705061 0 8192 4608 1135701247 18446744071697387318 0 0 -1 4 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14811 : 14811 (QInotifyFileSys) S 25164 14304 25164 34838 14304 1077944384 253 98636 0 0 0 0 170 33 20 0 19 0 3611993 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922870979664 139923151331187 0 8192 4608 1135701247 18446744071698739397 0 0 -1 7 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14812 : 14812 (QFileInfoGather) S 25164 14304 25164 34838 14304 1077944384 294 98636 0 0 0 0 170 33 20 0 19 0 3611993 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922862587392 139923189705061 0 8192 4608 1135701247 18446744071697387318 0 0 -1 2 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14813 : 14813 (QInotifyFileSys) S 25164 14304 25164 34838 14304 1077944384 253 98636 0 0 0 0 170 33 20 0 19 0 3611993 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922854194256 139923151331187 0 8192 4608 1135701247 18446744071698739397 0 0 -1 6 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14976 : 14976 (QFileInfoGather) S 25164 14304 25164 34838 14304 1077944384 293 98636 0 0 0 0 170 33 20 0 19 0 3614483 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922845801984 139923189705061 0 8192 4608 1135701247 18446744071697387318 0 0 -1 4 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14977 : 14977 (QInotifyFileSys) S 25164 14304 25164 34838 14304 1077944384 252 98636 0 0 0 0 170 33 20 0 19 0 3614483 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922837408848 139923151331187 0 8192 4608 1135701247 18446744071698739397 0 0 -1 0 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14978 : 14978 (QFileInfoGather) S 25164 14304 25164 34838 14304 1077944384 289 98636 0 0 0 0 170 33 20 0 19 0 3614483 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922829016576 139923189705061 0 8192 4608 1135701247 18446744071697387318 0 0 -1 4 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+14979 : 14979 (QInotifyFileSys) S 25164 14304 25164 34838 14304 1077944384 254 98636 0 0 0 0 170 33 20 0 19 0 3614483 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922820623440 139923151331187 0 8192 4608 1135701247 18446744071698739397 0 0 -1 2 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+15032 : 15032 (QFileInfoGather) S 25164 14304 25164 34838 14304 1077944384 289 98636 0 0 0 0 170 33 20 0 19 0 3615199 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922812231168 139923189705061 0 8192 4608 1135701247 18446744071697387318 0 0 -1 4 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+15033 : 15033 (QInotifyFileSys) R 25164 14304 25164 34838 14304 4202560 283 98636 0 0 59 106 170 33 20 0 19 0 3615200 1408180224 63943 18446744073709551615 4194304 330264937 140734615508224 139922803838032 139923151331187 0 8192 4608 1135701247 0 0 0 -1 6 0 0 0 0 0 332362096 347110272 898957312 140734615510382 140734615510529 140734615510529 140734615515058 0
+
+CRTE_PERIODIC_END 1 1551302396854
